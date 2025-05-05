@@ -47,3 +47,5 @@ Route::middleware(['company.context'])->group(function()
         Route::get('/show', [LivewireController::class, 'handle'])->name('show')->defaults('component', \App\Livewire\Admin\Payrolls\Show::class);
     });
 });
+
+
